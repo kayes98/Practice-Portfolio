@@ -11,7 +11,11 @@ h1 {
     color: chocolate;
 }
 
-section {
+#kk {
+    padding-left: 60px;
+}
+
+.fc {
     display: flex;
     margin-bottom: 10px;
 }
@@ -86,4 +90,42 @@ section {
     padding-left: 40px;
     padding-top: 4%;
     border-radius: 100px;
+}
+
+
+
+.padd {
+    padding-bottom: 100px;
+}
+
+.sec3 {
+    background-image: url(images/bg-pic.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+.shadow {
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 30px gray;
+
+    border-radius: 15px;
+}
+
+#border-left {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(212, 140, 58), rgb(66, 141, 146));
+    border-image-slice: 1;
+    background-image: linear-gradient(rgb(234, 96, 72), rgb(241, 164, 21));
+}
+
+#border-left1 {
+    border-left: 10px solid;
+    border-image: linear-gradient(rgb(54, 160, 222), rgb(79, 155, 79));
+    border-image-slice: 1;
+    background-image: linear-gradient(cyan, rgb(196, 79, 219));
+}
+
+footer p {
+    text-align: center;
 }
