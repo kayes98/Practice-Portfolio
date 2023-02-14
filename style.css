@@ -1,5 +1,6 @@
 body {
     font-family: 'Playfair Display', serif;
+    margin: 10px;
 }
 
 h1 {
@@ -12,6 +13,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 10px;
 }
 
 .partition {
@@ -29,6 +31,8 @@ section {
 
 .down {
     padding-bottom: 10px;
+    text-align: justify;
+    padding-right: 50px;
 }
 
 .text {
@@ -41,4 +45,45 @@ section {
     padding: 10px 40px;
 
     border-radius: 10px;
+}
+
+.sajek {
+    background-image: url(images/bg-pic.jpg);
+    background-repeat: no-repeat;
+
+
+    background-position-y: top;
+
+}
+
+.box {
+    text-decoration: none;
+
+    background-image: linear-gradient(rgb(69, 69, 241), rgb(149, 191, 231));
+    color: white;
+    font-weight: 900;
+
+
+    padding: 10px 40px;
+
+
+    border-radius: 10px;
+}
+
+.coxs {
+    background-image: url(images/bg-pic.jpg);
+    background-repeat: no-repeat;
+}
+
+.partition2 {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.partition2 img {
+    width: 70%;
+    height: 75%;
+    padding-left: 40px;
+    padding-top: 4%;
+    border-radius: 100px;
 }
