@@ -1,0 +1,44 @@
+body {
+    font-family: 'Playfair Display', serif;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.sp-tag {
+    color: chocolate;
+}
+
+section {
+    display: flex;
+}
+
+.partition {
+    width: 50%;
+    padding-left: 5%;
+}
+
+.partition img {
+    width: 70%;
+    height: 75%;
+    padding-left: 80px;
+    padding-top: 5%;
+    border-radius: 10%;
+}
+
+.down {
+    padding-bottom: 10px;
+}
+
+.text {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    font-weight: 900;
+
+
+    padding: 10px 40px;
+
+    border-radius: 10px;
+}
